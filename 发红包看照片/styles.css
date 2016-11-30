@@ -1,0 +1,49 @@
+* {margin:0; padding:0;}
+#blur-div {
+    position:relative; 
+	margin:0 auto;
+	
+	overflow:hidden;
+}
+#blur-image {	
+	    display:block; 
+        position:absolute;
+		left:0;
+		top:0; 
+		
+		margin: 0 auto;
+		
+		filter:blur(10px);
+		-webkit-filter:blur(10px);
+		-moz-filter:blur(10px);
+		-ms-filter:blur(10px);
+		-o-filter:blur(10px); 
+		}
+#mycanvas {
+	 position:absolute;
+	 left:0;
+	 top:0;
+       }		
+.button {
+	 position:absolute;
+	 display:block;
+	 z-index:200;
+	 
+	 width:100px;
+	 height:30px;
+	 
+	 bottom:30px;	 
+	 
+	 font-size:20px;
+	 line-height:30px;
+	 background:#6C9;
+	 text-decoration:none;
+	 color:#333;	
+	 text-align:center; 
+   }
+#reset {
+	 left:60px;
+       }
+#show {
+	 right:60px;
+	} 
